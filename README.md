@@ -20,3 +20,6 @@
             * `spring-boot-starter-web`
             * `spring-boot-devtools`
             * `spring-boot-starter-test`
+* Add Maven Release Plugin. Closes #3.
+    * Add config property `<autoVersionSubmodules>true</autoVersionSubmodules>`.
+    * Config `scm` section with `developerConnection` and `tag` elements.
