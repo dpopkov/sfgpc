@@ -24,3 +24,4 @@
     * Add config property `<autoVersionSubmodules>true</autoVersionSubmodules>`.
     * Config `scm` section with `developerConnection` and `tag` elements.
 * Create Interfaces for Pet Clinic Services. Closes #4.
+* Create BaseEntity and add id to model objects. Closes #9.
