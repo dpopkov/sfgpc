@@ -23,3 +23,4 @@
 * Add Maven Release Plugin. Closes #3.
     * Add config property `<autoVersionSubmodules>true</autoVersionSubmodules>`.
     * Config `scm` section with `developerConnection` and `tag` elements.
+* Create Interfaces for Pet Clinic Services. Closes #4.
