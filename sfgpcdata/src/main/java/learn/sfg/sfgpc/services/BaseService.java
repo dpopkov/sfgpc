@@ -9,7 +9,11 @@ public interface BaseService <T extends BaseEntity> {
 
     Optional<T> findById(Long id);
 
-    T save(T entity);
+    T save(T object);
 
     Set<T> findAll();
+
+    void delete(T object);
+
+    void deleteById(Long id);
 }
