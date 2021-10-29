@@ -26,3 +26,5 @@
 * Create Interfaces for Pet Clinic Services. Closes #4.
 * Create BaseEntity and add id to model objects. Closes #9.
 * Implement Map based Services. Closes #5.
+* Use an image for custom banner.
+    * Just add to application.properties: `spring.banner.image.location=pet-clinic.png`
