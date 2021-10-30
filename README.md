@@ -28,3 +28,6 @@
 * Implement Map based Services. Closes #5.
 * Use an image for custom banner.
     * Just add to application.properties: `spring.banner.image.location=pet-clinic.png`
+* Create Index Page and Controller. Closes #7.
+    * templates/index.html
+    * learn.sfg.sfgpc.controllers.IndexController
