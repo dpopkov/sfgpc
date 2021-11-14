@@ -31,3 +31,6 @@
 * Create Index Page and Controller. Closes #7.
     * templates/index.html
     * learn.sfg.sfgpc.controllers.IndexController
+* Create Vet Index page and Controller. Closes #6.
+    * templates/vets/index.html
+    * learn.sfg.sfgpc.controllers.VetController
