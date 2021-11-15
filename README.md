@@ -37,3 +37,5 @@
 * Create Owner Index page and Controller. Closes #10.
     * templates/owners/index.html
     * learn.sfg.sfgpc.controllers.OwnerController
+* Load Bootstrap Data on Startup. Closes #11.
+    * learn.sfg.sfgpc.bootstrap.DataLoader implements CommandLineRunner.
