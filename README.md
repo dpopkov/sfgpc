@@ -39,3 +39,5 @@
     * learn.sfg.sfgpc.controllers.OwnerController
 * Load Bootstrap Data on Startup. Closes #11.
     * learn.sfg.sfgpc.bootstrap.DataLoader implements CommandLineRunner.
+* Implement Spring Config for Services. Closes #19.
+    * __@Service__ public class OwnerMapService
