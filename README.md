@@ -44,3 +44,6 @@
 * List all Owners on Owner Index Page. Closes #13.
     * Update the OwnerController - inject OwnerService.
     * Update owners/index.html - add table and iterate owners.
+* List all Vets on Vet index page. Closes #12.
+    * Update the VetController - inject VetService.
+    * Update vets/index.html - add table and iterate vets.
