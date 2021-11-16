@@ -41,3 +41,6 @@
     * learn.sfg.sfgpc.bootstrap.DataLoader implements CommandLineRunner.
 * Implement Spring Config for Services. Closes #19.
     * __@Service__ public class OwnerMapService
+* List all Owners on Owner Index Page. Closes #13.
+    * Update the OwnerController - inject OwnerService.
+    * Update owners/index.html - add table and iterate owners.
