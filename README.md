@@ -47,3 +47,5 @@
 * List all Vets on Vet index page. Closes #12.
     * Update the VetController - inject VetService.
     * Update vets/index.html - add table and iterate vets.
+* Copy all Static Resources from Spring Pet Clinic. Closes #14.
+    * Copy resources/static/resources/fonts and images.
