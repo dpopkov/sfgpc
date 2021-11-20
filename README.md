@@ -55,3 +55,4 @@
     * add wro4j-maven-plugin to pom
     * add main/less files
     * add main/wro files
+* Apply master layout to Index Page. Closes #16.
