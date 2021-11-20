@@ -51,3 +51,7 @@
     * Copy resources/static/resources/fonts and images.
 * Copy Master Template from Spring Pet Clinic. Closes #15.
     * resources/templates/fragments/layout.html
+* Implement WRO4J Maven Plugin and Spring Pet Clinic resources. Closes #20.
+    * add wro4j-maven-plugin to pom
+    * add main/less files
+    * add main/wro files
