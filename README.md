@@ -56,6 +56,9 @@
     * add main/less files
     * add main/wro files
 * Apply master layout to Index Page. Closes #16.
+    * apply `th:replace="~{fragments/layout :: layout (~{::body},'home')}"`
 * Add missing i18n properties files. Closes #21.
     * add messages properties files
     * add `spring.messages.basename=messages/messages` to application.properties
+* Apply master layout to Owners List Page. Closes #17.
+    * apply `th:replace="~{fragments/layout :: layout (~{::body},'owners')}"`
