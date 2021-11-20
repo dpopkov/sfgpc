@@ -49,3 +49,5 @@
     * Update vets/index.html - add table and iterate vets.
 * Copy all Static Resources from Spring Pet Clinic. Closes #14.
     * Copy resources/static/resources/fonts and images.
+* Copy Master Template from Spring Pet Clinic. Closes #15.
+    * resources/templates/fragments/layout.html
