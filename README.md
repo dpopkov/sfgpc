@@ -56,3 +56,6 @@
     * add main/less files
     * add main/wro files
 * Apply master layout to Index Page. Closes #16.
+* Add missing i18n properties files. Closes #21.
+    * add messages properties files
+    * add `spring.messages.basename=messages/messages` to application.properties
