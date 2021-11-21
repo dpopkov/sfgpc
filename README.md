@@ -65,3 +65,4 @@
 * Apply master layout to Vet List Page. Closes #18.
     * apply `th:replace="~{fragments/layout :: layout (~{::body},'vets')}"`
 * Create Visit Entity, update Owner with Pet relationship. Closes #22.
+* Create Vet Speciality Entity, Associate to Vet. Closes #23.
