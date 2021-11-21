@@ -62,3 +62,5 @@
     * add `spring.messages.basename=messages/messages` to application.properties
 * Apply master layout to Owners List Page. Closes #17.
     * apply `th:replace="~{fragments/layout :: layout (~{::body},'owners')}"`
+* Apply master layout to Vet List Page. Closes #18.
+    * apply `th:replace="~{fragments/layout :: layout (~{::body},'vets')}"`
