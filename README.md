@@ -67,3 +67,4 @@
 * Create Visit Entity, update Owner with Pet relationship. Closes #22.
 * Create Vet Speciality Entity, Associate to Vet. Closes #23.
 * Add Contact Info Properties to Owners. Closes #24.
+* Create PetType Map Service Impl. Closes #25.
