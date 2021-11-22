@@ -71,3 +71,4 @@
 * Add PetTypes in with Bootstrap (startup). Closes #28.
 * Enhance Owners with contact info and Pets. Closes #29.
 * Create Specialty Map Service Impl. Closes #27.
+* Create Specialties, add to Vets on Startup (Bootstrap). Closes #30.
