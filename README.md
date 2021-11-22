@@ -68,3 +68,4 @@
 * Create Vet Speciality Entity, Associate to Vet. Closes #23.
 * Add Contact Info Properties to Owners. Closes #24.
 * Create PetType Map Service Impl. Closes #25.
+* Add PetTypes in with Bootstrap (startup). Closes #28.
