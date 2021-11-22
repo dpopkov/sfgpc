@@ -70,3 +70,4 @@
 * Create PetType Map Service Impl. Closes #25.
 * Add PetTypes in with Bootstrap (startup). Closes #28.
 * Enhance Owners with contact info and Pets. Closes #29.
+* Create Specialty Map Service Impl. Closes #27.
