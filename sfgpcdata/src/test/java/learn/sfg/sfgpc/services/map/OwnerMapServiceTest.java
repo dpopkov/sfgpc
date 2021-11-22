@@ -1,6 +1,8 @@
 package learn.sfg.sfgpc.services.map;
 
 import learn.sfg.sfgpc.model.Owner;
+import learn.sfg.sfgpc.services.PetService;
+import learn.sfg.sfgpc.services.PetTypeService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -9,7 +11,9 @@ import java.util.Set;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OwnerMapServiceTest {
-    private final OwnerMapService service = new OwnerMapService();
+    private final PetTypeService petTypeService = new PetTypeMapService();
+    private final PetService petService = new PetMapService(petTypeService);
+    private final OwnerMapService service = new OwnerMapService(petService);
     private Long id1;
     private Long id2;
 
