@@ -84,3 +84,4 @@
     * set up @JoinTable between Vet and VetSpecialty
 * Create Visit Entity. Closes #34.
     * make Visit, Pet @Entity
+* Add Spring Data JPA Repositories. Closes #35.
