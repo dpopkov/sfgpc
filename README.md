@@ -76,3 +76,6 @@
     * templates/notimplemented.html
     * add handler to OwnerController, ErrorController.
 * Update Base Entity as MappedSuperclass. Closes #31.
+* Convert Owners to JPA Entities. Closes #32.
+    * make Person @MappedSuperclass
+    * make Owner, Pet, PetType @Entity
