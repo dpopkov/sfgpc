@@ -82,3 +82,5 @@
 * Convert Vets to JPA Entities. Closes #33.
     * make Vet, VetSpecialty @Entity
     * set up @JoinTable between Vet and VetSpecialty
+* Create Visit Entity. Closes #34.
+    * make Visit, Pet @Entity
