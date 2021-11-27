@@ -79,3 +79,6 @@
 * Convert Owners to JPA Entities. Closes #32.
     * make Person @MappedSuperclass
     * make Owner, Pet, PetType @Entity
+* Convert Vets to JPA Entities. Closes #33.
+    * make Vet, VetSpecialty @Entity
+    * set up @JoinTable between Vet and VetSpecialty

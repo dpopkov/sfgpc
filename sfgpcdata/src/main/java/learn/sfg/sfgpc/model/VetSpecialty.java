@@ -1,5 +1,10 @@
 package learn.sfg.sfgpc.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "vet_specialties")
 public class VetSpecialty extends BaseEntity {
 
     private String description;
