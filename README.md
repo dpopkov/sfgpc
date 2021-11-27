@@ -85,3 +85,4 @@
 * Create Visit Entity. Closes #34.
     * make Visit, Pet @Entity
 * Add Spring Data JPA Repositories. Closes #35.
+* Create Spring Data JPA Service for Owners. Closes #36.
