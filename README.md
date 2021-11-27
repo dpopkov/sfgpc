@@ -75,3 +75,4 @@
 * Fix broken menu links. Closes #41.
     * templates/notimplemented.html
     * add handler to OwnerController, ErrorController.
+* Update Base Entity as MappedSuperclass. Closes #31.
