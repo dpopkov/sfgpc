@@ -86,3 +86,7 @@
     * make Visit, Pet @Entity
 * Add Spring Data JPA Repositories. Closes #35.
 * Create Spring Data JPA Service for Owners. Closes #36.
+* Create Spring Data JPA Service for Vets. Closes #37.
+* Create Spring Data JPA Service for Pet Type. Closes #38.
+* Create Spring Data JPA Service for Pets. Closes #39.
+* Create Spring Data JPA Service for Vet Specialty. Closes #40.
