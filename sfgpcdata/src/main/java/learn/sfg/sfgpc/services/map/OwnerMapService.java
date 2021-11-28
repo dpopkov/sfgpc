@@ -1,14 +1,17 @@
 package learn.sfg.sfgpc.services.map;
 
+import learn.sfg.sfgpc.Profiles;
 import learn.sfg.sfgpc.model.Owner;
 import learn.sfg.sfgpc.model.Pet;
 import learn.sfg.sfgpc.services.OwnerService;
 import learn.sfg.sfgpc.services.PetService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 import java.util.Set;
 
+@Profile(Profiles.IN_MEMORY_HASH_MAP)
 @Service
 public class OwnerMapService extends AbstractMapService<Owner> implements OwnerService {
     private final PetService petService;

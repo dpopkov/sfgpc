@@ -93,3 +93,5 @@
 * Create Visit Map Service. Closes #42.
 * Create Spring Data JPA Service for Visit. Closes #43.
 * Load Visits on Startup in Bootstrap. Closes #44.
+* Update Profiles to use Spring Data JPA Services. Closes #55.
+    * Property `spring.profiles.active`
