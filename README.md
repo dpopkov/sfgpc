@@ -90,3 +90,5 @@
 * Create Spring Data JPA Service for Pet Type. Closes #38.
 * Create Spring Data JPA Service for Pets. Closes #39.
 * Create Spring Data JPA Service for Vet Specialty. Closes #40.
+* Create Visit Map Service. Closes #42.
+* Create Spring Data JPA Service for Visit. Closes #43.
