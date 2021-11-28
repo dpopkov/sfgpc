@@ -92,3 +92,4 @@
 * Create Spring Data JPA Service for Vet Specialty. Closes #40.
 * Create Visit Map Service. Closes #42.
 * Create Spring Data JPA Service for Visit. Closes #43.
+* Load Visits on Startup in Bootstrap. Closes #44.

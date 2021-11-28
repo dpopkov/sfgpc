@@ -1,10 +1,7 @@
 package learn.sfg.sfgpc.bootstrap;
 
 import learn.sfg.sfgpc.model.*;
-import learn.sfg.sfgpc.services.OwnerService;
-import learn.sfg.sfgpc.services.PetTypeService;
-import learn.sfg.sfgpc.services.VetService;
-import learn.sfg.sfgpc.services.VetSpecialtyService;
+import learn.sfg.sfgpc.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -17,12 +14,14 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetSpecialtyService vetSpecialtyService;
     private final VetService vetService;
+    private final VisitService visitService;
 
-    public DataLoader(PetTypeService petTypeService, OwnerService ownerService, VetSpecialtyService vetSpecialtyService, VetService vetService) {
+    public DataLoader(PetTypeService petTypeService, OwnerService ownerService, VetSpecialtyService vetSpecialtyService, VetService vetService, VisitService visitService) {
         this.petTypeService = petTypeService;
         this.ownerService = ownerService;
         this.vetSpecialtyService = vetSpecialtyService;
         this.vetService = vetService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -52,8 +51,14 @@ public class DataLoader implements CommandLineRunner {
         owner2.setCity("Miami");
         owner2.setTelephone("3213214321");
         Pet fionasCat = new Pet("", catType, LocalDate.of(2019, 7, 3));
+        Visit catVisit1 = new Visit(LocalDate.of(2022, 3, 20), "First visit");
+        Visit catVisit2 = new Visit(LocalDate.of(2022, 3, 23), "Second visit");
+        fionasCat.addVisit(catVisit1);
+        fionasCat.addVisit(catVisit2);
         owner2.addPet(fionasCat);
         ownerService.save(owner2);
+        visitService.save(catVisit1);   // Have to save Visits after Owner because of that check in Visit's save operation
+        visitService.save(catVisit2);
         System.out.println("Loaded Owners....");
 
         VetSpecialty radiology = new VetSpecialty("Radiology");

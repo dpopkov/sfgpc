@@ -14,6 +14,14 @@ public class Visit extends BaseEntity {
     @ManyToOne
     private Pet pet;
 
+    public Visit() {
+    }
+
+    public Visit(LocalDate date, String description) {
+        this.date = date;
+        this.description = description;
+    }
+
     public LocalDate getDate() {
         return date;
     }
