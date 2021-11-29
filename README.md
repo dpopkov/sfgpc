@@ -95,3 +95,5 @@
 * Load Visits on Startup in Bootstrap. Closes #44.
 * Update Profiles to use Spring Data JPA Services. Closes #55.
     * Property `spring.profiles.active`
+* Refactoring for Project Lombok. Closes #47.
+    * @Builder: when in sub-class then apply @Builder to __all args constructor__.

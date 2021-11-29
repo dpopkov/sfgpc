@@ -1,8 +1,13 @@
 package learn.sfg.sfgpc.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "types")
 public class PetType extends BaseEntity {
@@ -13,14 +18,6 @@ public class PetType extends BaseEntity {
     }
 
     public PetType(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
         this.name = name;
     }
 }

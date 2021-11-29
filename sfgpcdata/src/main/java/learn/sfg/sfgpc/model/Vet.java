@@ -1,9 +1,14 @@
 package learn.sfg.sfgpc.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "vets")
 public class Vet extends Person {
@@ -18,13 +23,5 @@ public class Vet extends Person {
 
     public Vet(String firstName, String lastName) {
         super(firstName, lastName);
-    }
-
-    public Set<VetSpecialty> getSpecialties() {
-        return specialties;
-    }
-
-    public void setSpecialties(Set<VetSpecialty> specialties) {
-        this.specialties = specialties;
     }
 }
