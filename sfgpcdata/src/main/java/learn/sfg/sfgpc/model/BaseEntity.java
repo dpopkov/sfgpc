@@ -1,7 +1,9 @@
 package learn.sfg.sfgpc.model;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.experimental.SuperBuilder;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,6 +13,8 @@ import java.io.Serializable;
 
 @Getter
 @Setter
+@NoArgsConstructor
+@SuperBuilder
 @MappedSuperclass
 public abstract class BaseEntity implements Serializable {
     @Id

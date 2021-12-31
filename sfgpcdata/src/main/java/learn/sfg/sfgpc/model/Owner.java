@@ -1,8 +1,8 @@
 package learn.sfg.sfgpc.model;
 
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.experimental.SuperBuilder;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -13,6 +13,7 @@ import java.util.Set;
 
 @Getter
 @Setter
+@SuperBuilder
 @Entity
 @Table(name = "owners")
 public class Owner extends Person {
@@ -37,7 +38,7 @@ public class Owner extends Person {
         this.telephone = telephone;
     }
 
-    @Builder
+//    @Builder
     public Owner(String firstName, String lastName, String address, String city, String telephone, Set<Pet> pets) {
         super(firstName, lastName);
         this.address = address;

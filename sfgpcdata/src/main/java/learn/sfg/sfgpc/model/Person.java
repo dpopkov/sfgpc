@@ -2,12 +2,14 @@ package learn.sfg.sfgpc.model;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.experimental.SuperBuilder;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
 @Getter
 @Setter
+@SuperBuilder
 @MappedSuperclass
 public abstract class Person extends BaseEntity {
     @Column(name = "first_name")

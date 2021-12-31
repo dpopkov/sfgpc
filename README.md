@@ -97,3 +97,6 @@
     * Property `spring.profiles.active`
 * Refactoring for Project Lombok. Closes #47.
     * @Builder: when in sub-class then apply @Builder to __all args constructor__.
+*  Write CRUD tests for Owner Spring Data JPA Service. Closes #46.
+    * Use @Mock, @InjectMocks, @ExtendWith(MockitoExtension.class)
+    * Using @SuperBuilder in entity parent classes.  
