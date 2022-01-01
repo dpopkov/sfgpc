@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/dpopkov/sfgpc/tree/main.svg?style=svg)](https://circleci.com/gh/dpopkov/sfgpc/tree/main)
+
 # SFG Spring Boot Pet Clinic
 
 ## History
@@ -101,3 +103,4 @@
     * Use @Mock, @InjectMocks, @ExtendWith(MockitoExtension.class)
     * Using @SuperBuilder in entity parent classes.  
 * Write Spring MVC Tests for Owner Controller. Closes #48. 
+* Setup CI builds for integration tests with CircleCI and add Build Badge. Closes #56, closes #57. 
